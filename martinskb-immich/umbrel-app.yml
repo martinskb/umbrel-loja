@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: martinskb-immich
+category: files
+name: Immich
+version: "3.4.1"
+tagline: Fotos e videos no HD do servidor
+icon: https://raw.githubusercontent.com/immich-app/immich/main/design/immich-logo.svg
+description: Atalho para o Immich que roda pelo Portainer neste servidor na porta 2283. Os dados ficam no HD.
+developer: Kaio Barra
+website: https://immich.app
+dependencies: []
+repo: https://github.com/martinskb/umbrel-loja
+support: https://github.com/martinskb/umbrel-loja/issues
+port: 2283
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Kaio Barra
+submission: https://github.com/martinskb/umbrel-loja
