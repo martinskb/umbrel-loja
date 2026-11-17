@@ -1,1 +1,2 @@
-services: {app_proxy: {environment: {APP_HOST: 192.168.3.69, APP_PORT: 2283, PROXY_AUTH_ADD: "false"}}}
+version: "3.7"
+services: {app_proxy: {environment: {APP_HOST: martinskb-immich_web_1, APP_PORT: 2283, PROXY_AUTH_ADD: "false"}}, web: {image: "alpine/socat:1.8.0.0", restart: on-failure, command: "TCP-LISTEN:2283,fork,reuseaddr TCP:192.168.3.69:2283"}}
